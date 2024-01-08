@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+.prent-div{
+    width: 90%;
+    height: 90vh;
+    margin:50px auto;
+    background-image:linear-gradient( #18141f 10%, #07021100 80%), url(resources/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:8px;
+    font-family: 'Merriweather', serif;
+}
+.prent-div .text{
+    text-align: center;
+    width:450px;
+    margin: auto;
+    padding-top: 120px;
+   
+}
+.prent-div p{
+    color: white;
+    font-size: 20px;
+    padding-bottom:10px;
+    text-shadow: 2px 2px 1px rgb(50, 180, 18);
+}
+.prent-div h2{
+    color: rgb(252, 252, 252);
+    font-size:45px;
+    word-spacing:10px;
+    line-height: 1.4;
+}
+
+/* 1st section code start */
+.Mul-div{
+    width:50%;
+    margin:100px auto;
+    text-align: center;
+}
+.Mul-div .img-photo{
+    width: 70%;
+    margin: auto;
+    
+}
+.Mul-div .img-photo img{
+    width: 100%;
+}
+.Mul-div h2{
+    margin:30px 0px;
+    font-size:70px;
+    font-weight: 800;
+}
+.Mul-div h1{
+    margin: 5px 0px 35px 0px;
+    font-size: 40px;
+    font-family: serif;
+}
+
+/*2ed section code start */
+.text-img {
+    width: 90%;
+    background-image:linear-gradient(90deg, #000000fa, #0707086b), url(resources/Vectorrr.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:8px;
+    margin:80px auto;
+    padding:15px 20px;
+    
+}
+.text-img .text-logo{
+    display: flex;
+    padding: 25px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-img .text-logo  img{
+    width: 100%;
+}
+.text-img .text-logo .text-div{
+    padding-right:30px;
+
+}
+.text-img .text-logo .text-div p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: serif;
+}
+.text-img .text-logo .text-div h2{
+    color: rgb(243, 241, 238);
+    font-size:45px;
+    line-height:1.2;
+    padding-bottom:20px;
+    font-family: serif;
+}
+
+.text-img .text-logo .text-div .btn{
+    display: block;
+    margin-top:30px;
+    padding: 15px 25px;
+    background-color: chocolate;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+}
+.text-img .text-logo .text-div .btn:hover{
+    background-color: wheat;
+}
+
+/* 3rd section code start */
+.host{
+    width:93%;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.041) 100%);;
+    margin: 20px auto;
+    padding:80px 0px;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+}
+.host  .red{
+    color: red;
+    line-height:35px; 
+}
+.host .btn{
+    background-color: cyan;
+    padding: 12px 22px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+
+}
+.host .btn:hover{
+    background-color: indianred;
+}
+
+/* 4rd section code start  */
+.four-prent{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px auto;
+    background-color: rgba(245, 214, 174, 0.274);
+    padding: 8px 30px;
+    border-radius: 8px;
+}
+.four-prent .gb{
+    max-width:350px;
+    padding-right: 30px;
+}
+.four-prent .gb h2{
+    font-size:45px;
+    font-family: 'Merriweather', serif;
+    padding: 15px 0px 0px 0px;
+}
+.four-prent .gb h3{
+    color: rgb(238, 42, 238);
+    font-weight: 800;
+    font-style: italic;
+}
+.four-prent .img-one{
+    border:3px dotted red;
+    padding: 10px;
+    border-radius: 50%;
+}
+.four-prent .text-there{
+    padding-left:50px;
+}
+.four-prent .text-there h2{
+    color: red;
+    font-size: 40px;
+}
+.four-prent .text-there  p, p{
+    color: rgba(0, 0, 0, 0.678);
+    text-shadow: none;
+    padding: 10px 0px;
+}
+
+
+/* 5rd section code start */
+.all-tex-img {
+    max-width: 90%;
+    margin: 130px auto;
+    padding:10px 40px;
+   
+}
+.all-tex-img .text-all{
+    text-align: center;
+    width:50%;
+    margin:20px auto 50px auto;
+}
+.all-tex-img .text-all h2{
+    margin: 10px 0px;
+    font-size: 36px;
+   
+}
+.all-tex-img .text-all .color-text{
+    color: rgb(61, 224, 20);
+    letter-spacing:5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 3px 1px rgb(10, 2, 2);
+}
+/* photo code start */
+.all-tex-img .img-all{
+    position: relative;
+    max-width:100%;
+    height:645px;
+    margin: auto;
+}
+.all-tex-img .img-all img{
+    width: 100%;
+}
+/* girls and Discount code start */
+.all-tex-img .img-all .Girls-photo{
+    max-width:50%;
+    top: 9px;
+    right: 0px;
+    position: absolute;
+   
+}
+.all-tex-img .img-all> .Girls-photo> .Discount-photo{
+    max-width:70%;
+    left: -35%;
+    bottom:10%;
+    position: absolute;
+}
+/* girls and Discount code stop */
+
+/*Red -background and Gift code start */
+.all-tex-img .img-all .Red-gift{
+    width:100%;
+    bottom:1px;
+    left: 0px;
+    position: absolute;
+}
+.all-tex-img .img-all .Gift-photo{
+    width:50%;
+    bottom:20px;
+    left:30px;
+    position: absolute;
+}
+/*Red -background and Gift code Stop */
+
+
+/* Our Awesome Portfolio section start */
+.mul-portfolio{
+    width:80%;
+    padding: 30px 50px;
+    margin: 30px auto;
+    background-color: #977b7b1c;
+    border-radius: 10px;
+}
+.mul-portfolio .text-ariya{
+    width:50%;
+    padding: 15px 0px 30px 0px;
+    
+}
+.mul-portfolio .text-ariya h2{
+    font-size: 40px;
+    padding: 15px 0px 8px 0px;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.mul-portfolio .text-ariya h4, .red{
+    color: rgba(255, 0, 0, 0.685);
+    letter-spacing:2px;
+}
+.img-portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px 20px;
+}
+.img-portfolio img{
+    width: 100%;
+    height: 100%;
+    
+}
+.img-portfolio .photo:hover{
+    border: 2px solid red;
+    border-radius:18px;
+}
+
+
+/* Subscribe Newsletter code start */
+
+.Subscribe-div{
+    width:50%;
+    text-align: center;
+    margin:50px auto;
+    padding:50px 250px;
+    background-color: #ff000025;
+    border-radius: 10px;
+    
+}
+.Subscribe-div h2{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 0px;
+    font-weight: 800;
+}
+.Subscribe-div .email-button{
+    position: relative;
+
+}
+.Subscribe-div .email-button input[type='email']{
+    width:40%;
+    padding: 15px 50px 15px 10px;
+    margin: 25px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    
+}
+.Subscribe-div .submit{
+    padding: 15px 30px;
+    background-color: red;
+    position: absolute;
+    top:25px ;
+    right:50px;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+}
