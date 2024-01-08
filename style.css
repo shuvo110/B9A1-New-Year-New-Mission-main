@@ -318,11 +318,61 @@
 }
 .Subscribe-div .submit{
     padding: 15px 30px;
-    background-color: red;
+    background-color: rgb(94, 243, 65);
     position: absolute;
     top:25px ;
-    right:50px;
+    right:80px;
     border: none;
     outline: none;
     border-radius: 0px 10px 10px 0px;
+}
+
+/* footer code start */
+footer{
+    padding:80px 180px 150px 180px;
+    background-color: #000000;
+    color: whitesmoke;
+    
+}
+.text-hed{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:-10px;
+    align-items: center;
+    
+}
+
+.text-hed .text-two{
+    width:160px;
+    display: flex;
+    align-items: center;
+}
+.text-hed .text-two p{
+    color: rgba(255, 255, 255, 0.781);
+    padding-left:10px;
+}
+
+
+/* sosalmediya img */
+
+.img-div{
+    display: flex;
+    padding:35px 290px;
+    border-top: 2px solid #444040ce;
+    border-bottom:2px solid #444040ce;
+    margin:50px auto 15px auto;
+}
+.img-div .facebook{
+    margin-left: 20px;
+    max-width:20%;
+}
+.img-div .facebook img{
+    width: 100%;
+}
+footer .text-shesh{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:15px;
+    
 }
